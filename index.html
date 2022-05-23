@@ -9,9 +9,9 @@
 <body>
     <script src="./platzi.js"></script>
     <div id="app">
-        <span v-text="message"></span>
+        <span p-text="message"></span>
         <br>
-        <input type="text" v-model="message">
+        <input type="text" p-model="message">
     </div>
     
     <script>
@@ -20,7 +20,7 @@
         const app = createApp({
             data() {
                 return {
-                    message: 'Hello Vue!',
+                    message: 'Hola Platzi!',
                 }
             }
         });
